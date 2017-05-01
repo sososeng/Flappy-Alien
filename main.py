@@ -44,7 +44,7 @@ def msg(text):
     titleTextRect.center =  500, 400
     screen.blit(titleTextSurf, titleTextRect)
 
-    typTextSurf, typTextRect = textobj('Press any key to continue', stext)
+    typTextSurf, typTextRect = textobj('Press Space to continue', stext)
     typTextRect.center =  500, (400 + 100)
     screen.blit(typTextSurf, typTextRect)
     pygame.display.update()
